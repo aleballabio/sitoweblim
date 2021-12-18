@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* Contenitore Nero */
+body > .contenitore {
+  background-color: rgba(0,0,0, 0.5);
+  height: 850px;
+  width: 1200px;
+  margin-top: 30px;
+  border-radius: 3%;
+  display: block;
+}
+
+/* Header e Logo  */
+div > header {
+  color: rgba(0,221,0,255);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header > h1 {
+  font-size: 32px;
+}
+
+img.logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  padding-top: 100px;
+}
+
+/* Bottoni */
+
+div.contenitorebottoni {
+  background-color: rgba(0,221,0,255);
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 40px;
+}
+
+/* Utenti e Stato Cariche */
+main {
+  text-align: left;
+  color: white;
+  padding-left: 10%;
+  padding-top: 20px;
+  font-family: arial;
+}
+
+section > h2 {
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+
+section p {
+  padding-top: 6px;
+  font-size: 17px;
+  opacity: 0.9;
+}
+
+.vie:before {
+  content: "\21A6";
+}
+
+#Gino22 :last-child {
+  background-color: #f5b453;
+  display: inline-block;
+  width: 32%;
+  height: 30px;
+  border-radius: 5px;
+  padding-top: 2px;
+  margin-bottom: 22px;
+}
+
+#Mike24 :last-child {
+  background-color: #1ec31e;
+  display: inline-block;
+  width: 55%;
+  height: 30px;
+  border-radius: 5px;
+  padding-top: 2px;
+  margin-bottom: 20px;
+}
+
+#Fede154 :last-child {
+  background-color: #be4141;
+  display: inline-block;
+  width: 15%;
+  height: 30px;
+  border-radius: 5px;
+  padding-top: 2px;
+  margin-bottom: 20px;
+}
